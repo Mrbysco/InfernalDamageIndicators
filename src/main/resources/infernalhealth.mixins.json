@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "compatibilityLevel": "JAVA_17",
+  "package": "com.mrbysco.infernalhealth.mixin",
+  "refmap": "infernalhealth.refmap.json",
+  "target": "@env(DEFAULT)",
+  "mixins": [
+  ],
+  "client": [
+    "BarDisplayMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

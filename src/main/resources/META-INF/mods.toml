@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+issueTrackerURL="https://github.com/Mrbysco/InfernalDamageIndicators/issues"
+license="MIT"
+
+[[mods]]
+modId="infernalhealth"
+version="${file.jarVersion}"
+displayName="Infernal Damage Indicators"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/infernal-damage-indicators"
+authors="Mrbysco"
+description='''
+Add Infernal Mobs support to ToroHealth Damage Indicators
+'''
+
+[[dependencies.infernalhealth]]
+modId="torohealth"
+mandatory=true
+versionRange="[1.19-forge-2,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.infernalhealth]]
+modId="infernalmobs"
+mandatory=true
+versionRange="[1.19.2.4,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.infernalhealth]]
+modId="forge"
+mandatory=true
+versionRange="[43.2.0,)"
+ordering="NONE"
+side="BOTH"
